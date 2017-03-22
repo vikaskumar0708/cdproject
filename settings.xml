@@ -13,7 +13,7 @@ xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.o
 <mirror>
 <id>nexus</id>
 <name>internal nexus Mirror of Central</name>
-<url>http://35.163.130.38:8081/nexus/content/groups/public/<url>
+<url>http://34.208.15.93:8081/nexus/content/groups/public/<url>
 <mirrorOf>*</mirrorOf>
 </mirror>
 </mirrors>
