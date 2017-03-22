@@ -19,12 +19,12 @@
 <repository>
 <id>nexusReleases</id>
 <name>Releases</name>
-<url>http://34.208.112.45:8081/nexus/content/repositories/releases</url>
+<url>http://34.208.238.7:8081/nexus/content/repositories/releases</url>
 </repository>
 <snapshotRepository>
 <id>nexusSnapshots</id>
 <name>Snapshots</name>
-<url>http://34.208.112.45:8081/nexus/content/repositories/snapshots</url>
+<url>http://34.208.238.7:8081/nexus/content/repositories/snapshots</url>
 </snapshotRepository>
 </distributionManagement>
 </project>
