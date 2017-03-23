@@ -26,10 +26,10 @@
 <name>Snapshots</name>
 <url>http://34.208.15.93:8081/nexus/content/repositories/snapshots</url>
 </snapshotRepository>
-    <repository>
+    <stagingrepository>
       <id>nexus</id>
       <name>Nexus Staging Repo</name>
       <url>http://localhost:8081/nexus/service/local/staging/deploy/maven2/</url>
-    </repository>
+    </stagingrepository>
   </distributionManagement>
 </project>
