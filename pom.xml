@@ -26,8 +26,6 @@
 <name>Snapshots</name>
 <url>http://34.208.15.93:8081/nexus/content/repositories/snapshots</url>
 </snapshotRepository>
-</distributionManagement>
-  <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>Nexus Staging Repo</name>
