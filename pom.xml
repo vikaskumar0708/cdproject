@@ -27,20 +27,4 @@
 <url>http://34.208.15.93:8081/nexus/content/repositories/snapshots</url>
 </snapshotRepository>
 </distributionManagement>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.3</version>
-        <extensions>true</extensions>
-        <configuration>
-              <serverId>nexus-releases</serverId>
-          <nexusUrl>http://34.208.15.93:8081/nexus/</nexusUrl>
-          <!-- update this to the correct id! -->
-          <stagingProfileId>1296f79efe04a4d0</stagingProfileId>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
 </project>
